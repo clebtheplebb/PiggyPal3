@@ -1,7 +1,15 @@
-flask==2.0.1
-plaid-python==11.0.0
-python-dotenv==0.19.0
-werkzeug==2.0.1
-python-dateutil>=2.8.2
-flask-login>=0.6.0
-flask-wtf>=1.0.0 
+Flask==3.0.2
+plaid-python==18.1.0
+pymongo==4.6.2
+Werkzeug==3.0.1
+google-generativeai==0.3.2
+python-dotenv==1.0.1
+certifi==2024.2.2
+bson==0.5.10
+dnspython==2.6.1  # Required for MongoDB connection
+requests==2.31.0  # Required for HTTP requests
+python-dateutil==2.9.0  # Required for date handling
+Jinja2==3.1.3  # Required for Flask templates
+MarkupSafe==2.1.5  # Required for Jinja2
+itsdangerous==2.1.2  # Required for Flask session
+click==8.1.7  # Required for Flask CLI 
